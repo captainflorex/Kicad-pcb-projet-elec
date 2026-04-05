@@ -23,8 +23,13 @@ calculées et combinées avec des résistances standard (220Ω, 1kΩ, 10kΩ, 20k
 - Haut-parleur
 - 
 ## Fichiers
-- `frequency_meter.ino` — Fréquencemètre Arduino (pin 3 NE555 → pin D2)
-- Schéma KiCad — PCB du circuit complet
+- `projetelec.kicad_sch` — Schéma électronique KiCad
+- `projetelec.kicad_pcb` — PCB KiCad
+- `projetelec.kicad_pro` — Fichier projet KiCad
+- `projetelec.kicad_prl` — Préférences locales KiCad
+- `projetelec.wrl` — Modèle 3D du PCB
+- `projetelec.round-tracks-config` — Configuration des pistes arrondies
+- `freerouting.rules` — Règles de routage automatique
 
 ## Résultats obtenus
 Toutes les notes dans une tolérance de ±5% sans composants de précision.
