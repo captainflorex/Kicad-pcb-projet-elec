@@ -21,6 +21,7 @@ calculées et combinées avec des résistances standard (220Ω, 1kΩ, 10kΩ, 20k
 - 2× Diodes (protection)
 - Potentiomètre 1kΩ (contrôle du volume)
 - Haut-parleur
+- Buzzer (pour entendre le métronome)
   
 ## Fichiers
 - `projetelec.kicad_sch` — Schéma électronique KiCad
