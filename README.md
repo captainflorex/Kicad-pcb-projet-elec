@@ -30,6 +30,11 @@ calculées et combinées avec des résistances standard (220Ω, 1kΩ, 10kΩ, 20k
 - `projetelec.wrl` — Modèle 3D du PCB
 - `projetelec.round-tracks-config` — Configuration des pistes arrondies
 - `freerouting.rules` — Règles de routage automatique
+- `freerouting.dsn` — Fichier de routage automatique
+- `projetelectest.kicad_pcb` — PCB de test KiCad
+- `projetelectest.kicad_prl` — Préférences locales de test KiCad
+- `projetelectest.kicad_pro` — Fichier projet de test KiCad
+- `temp-freerouting.dsn` — Fichier temporaire de routage
 
 ## Résultats obtenus
 Toutes les notes dans une tolérance de ±5% sans composants de précision.
