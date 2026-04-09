@@ -5,6 +5,183 @@
 	(uuid "f0c9c9cf-9d99-44e9-913f-e3f706fcb905")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:Buzzer"
+			(pin_names
+				(offset 0.0254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BZ"
+				(at 3.81 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Buzzer"
+				(at 3.81 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.635 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Buzzer, polarized"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quartz resonator ceramic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Buzzer*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Buzzer_0_1"
+				(polyline
+					(pts
+						(xy -1.651 1.905) (xy -1.143 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.159) (xy -1.397 1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.175)
+					(mid 3.1612 0)
+					(end 0 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Buzzer_1_1"
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_Module:Arduino_Nano_v3.x"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2210,6 +2387,18 @@
 		)
 	)
 	(rectangle
+		(start 196.85 135.89)
+		(end 223.52 148.59)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1705c985-cc32-4973-a481-cc6b555aba9b")
+	)
+	(rectangle
 		(start 105.41 118.11)
 		(end 171.45 194.31)
 		(stroke
@@ -2244,6 +2433,18 @@
 			(type none)
 		)
 		(uuid "4d9b6610-1138-4bc5-a575-ff9fa329682e")
+	)
+	(rectangle
+		(start 196.85 148.59)
+		(end 215.9 151.13)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "5c34c37d-d961-420b-b0c7-df7e796db519")
 	)
 	(rectangle
 		(start 105.41 115.57)
@@ -2305,6 +2506,16 @@
 		)
 		(uuid "c40ad4dc-9a27-47ea-8426-6c99e8aacfe3")
 	)
+	(text "Routage/CAO projet EA S2"
+		(exclude_from_sim no)
+		(at 212.09 189.738 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "115e62bc-f8df-441a-b2e3-e015dab12c32")
+	)
 	(text "Controle du speaker"
 		(exclude_from_sim no)
 		(at 115.57 113.284 0)
@@ -2314,6 +2525,16 @@
 			)
 		)
 		(uuid "19037553-777d-4860-ad5c-04e43f45aa8c")
+	)
+	(text "Buzzer métronome"
+		(exclude_from_sim no)
+		(at 206.248 150.114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "46fbc844-a45f-4eb3-b0c2-9cb0c75c8fac")
 	)
 	(text "\"Piano\""
 		(exclude_from_sim no)
@@ -3473,6 +3694,30 @@
 			)
 		)
 	)
+	(global_label "Buzzer"
+		(shape input)
+		(at 129.54 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3781cddd-60e0-49f8-be29-ff0299cc9de7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.2048 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Pin 7"
 		(shape input)
 		(at 43.18 190.5 180)
@@ -3590,6 +3835,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape output)
+		(at 209.55 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d956a63-05c6-43c9-8221-c189d9d18426")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 202.6943 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -3734,6 +4003,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "Buzzer"
+		(shape output)
+		(at 209.55 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dbad73e4-398c-4cd4-a978-58a7b6c3ee05")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.2148 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -4255,7 +4548,7 @@
 		(dnp no)
 		(uuid "18d8b219-219b-4e1b-8193-738b1eaff23b")
 		(property "Reference" "D1"
-			(at 118.11 87.63 0)
+			(at 118.11 88.392 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4265,7 +4558,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 118.11 90.17 0)
+			(at 118.11 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4813,10 +5106,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "37c02255-13c3-4134-ae30-b11c56a6dc79")
 		(property "Reference" "D2"
-			(at 140.97 87.63 0)
+			(at 140.97 88.392 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4826,7 +5118,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 140.97 90.17 0)
+			(at 140.97 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6990,6 +7282,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Buzzer")
+		(at 212.09 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5c64bb4-abad-4e6d-b078-e30edda95f66")
+		(property "Reference" "BZ1"
+			(at 215.9 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Buzzer"
+			(at 215.9 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Buzzer_Beeper:Buzzer_15x7.5RM7.6"
+			(at 211.455 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 211.455 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Buzzer, polarized"
+			(at 212.09 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c59f37da-8f99-44d4-8b79-d91d893eb76d")
+		)
+		(pin "1"
+			(uuid "03a1852f-fe09-4f08-ba2c-8ef40c31bcd6")
+		)
+		(instances
+			(project "projetelec"
+				(path "/f0c9c9cf-9d99-44e9-913f-e3f706fcb905"
+					(reference "BZ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SL_Resistors:Resistor")
 		(at 45.72 167.64 270)
 		(unit 1)
@@ -7480,10 +7854,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e81b147f-80b5-4c48-9f7a-4a17d0ddb0c9")
 		(property "Reference" "R36"
-			(at 134.62 78.74 0)
+			(at 134.62 80.772 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7492,8 +7865,8 @@
 				)
 			)
 		)
-		(property "Value" "Resistor"
-			(at 134.62 81.28 0)
+		(property "Value" "1k"
+			(at 134.62 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
